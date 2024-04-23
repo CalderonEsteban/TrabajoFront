@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+body{
+    background: #522217;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+section{
+   width: 450px;
+   padding: 50px 50px;
+   position: absolute;
+   transform: translate(-50%, -50%);
+   top: 50%;
+   left:50%;
+   border-radius: 15px;
+   box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
+   background:#e410334b;
+}
+
+.contenedorFormulario{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+#dosInput{
+  
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    grid-gap: 10px;
+}
+
+.inputForm{
+    width: 100%;
+    margin-top: 3%;
+
+}
+
+input{
+    cursor: pointer;
+    border: 0;
+    background: none;
+    outline: 0;
+    height: 30px;
+    border-bottom: 2px solid #f84260b9;
+    font-size: 14px;
+}
+
+textarea{
+    resize: none;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #f84260 ;
+}
+
+.boton{
+    border: 1px solid white;
+    box-sizing: content-box;
+    margin-top:30px;
+    margin-left:10px;
+    background-color:#ce697ad3;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 300;
+    text-decoration: none;
+    margin-bottom:20px;
+
+}
+#botonDeInicio{
+    margin-top: 40px;
+}
+h2{
+    font-size: 35px;
+    padding-bottom: 40px;
+}
+p{
+    padding-top: 20px;
+    font-size: 15px;
+    
+}
+.terminos{
+    padding-top: 20px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    .textoCheck{
+        margin-left: 15px;
+    }
+}
+
+
